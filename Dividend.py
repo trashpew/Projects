@@ -19,4 +19,4 @@ while True:
 This code is sprung from the question:
 "What is the lowest number divisible by all numbers 1-10?"
 Our dividend can be 10, and it will output the answer, for instance.
-'''
+''' 
