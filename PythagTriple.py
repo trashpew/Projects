@@ -60,7 +60,7 @@ def Init():
     c_list, b_list, a_list, n_list = [], [], [], []
     Intro()  # [4]
 
-
+ 
 #
 
 def Print():
