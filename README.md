@@ -1,1 +1,3 @@
-# Just a list of my projects, they don't mean anything. Feel free to check them out, though!
+# Read Me
+Just a list of my projects, and storage for them as well.
+Mainly math/physics related things!
