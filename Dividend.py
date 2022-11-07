@@ -1,4 +1,4 @@
-import sys
+iimport sys
 
 print("What should our dividend be:")
 p = int(input())
@@ -19,4 +19,7 @@ while True:
 This code is sprung from the question:
 "What is the lowest number divisible by all numbers 1-10?"
 Our dividend can be 10, and it will output the answer, for instance.
+
+A fun fact is that 13, 14 and 15 all have the same output; 360360.
+16, however, has exactly double that, at 720720.
 ''' 
