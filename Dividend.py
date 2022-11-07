@@ -1,4 +1,4 @@
-iimport sys
+import sys
 
 print("What should our dividend be:")
 p = int(input())
