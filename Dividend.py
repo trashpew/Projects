@@ -21,5 +21,5 @@ This code is sprung from the question:
 Our dividend can be 10, and it will output the answer, for instance.
 
 A fun fact is that 13, 14 and 15 all have the same output; 360360.
-16, however, has exactly double that, at 720720.
+16, however, has exactly double that, at 720720. 
 ''' 
