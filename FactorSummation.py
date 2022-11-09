@@ -1,7 +1,7 @@
 print("What should we summate to:")
 sum_end = int(input())
 print("Choose two factors which will be in all numbers we summate "
-      "(I.E, 3 and 5 would summate all numbers with either as a factor up to {}): \n\n".format(sumend))
+      "(I.E, 3 and 5 would summate all numbers with either as a factor up to {}): \n\n".format(sum_end))
 
 print("Factor 1:")
 f1 = int(input())
@@ -14,7 +14,7 @@ for i in range(sum_end - 1):  # [1]
     if (i % f1) == 0 or (i % f2) == 0:
         last = last + i
         continue
-    print(last)
+print(last)
 
 '''
 1: The range needs to be one less than sum_end, since we want up to it but not including it.
