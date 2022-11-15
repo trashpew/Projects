@@ -44,13 +44,25 @@ def sub():
   Default()
 
 def swap():
-  print("Which two indexes would you want to swap (from 0):")
-  print("First:")
-  swap1 = int(input())
-  print("Second:")
-  swap2 = int(input())
-  list[swap1], list[swap2] = list[swap2], list[swap1]
-  print("You successfully swapped index {} and {}".format(swap1, swap2))
+  print("Would you like to swap by:")
+  print("1: Index?")
+  print("2: String?")
+  cmd = int(input())
+  if cmd == 1:
+    print("Which two indexes would you want to swap (from 0):")
+    print("First:")
+    swap1 = int(input())
+    print("Second:")
+    swap2 = int(input())
+    list[swap1], list[swap2] = list[swap2], list[swap1]
+    print("You successfully swapped index {} and {}".format(swap1, swap2))
+  if cmd == 2:
+    print("First:")
+    swap1 = list.index(input())
+    print("Second:")
+    swap2 = list.index(input())
+    list[swap1], list[swap2] = list[swap2], list[swap1]
+    print("You successfully swapped index {} and {}".format(swap1, swap2))
   Default()
 
 def clear():
