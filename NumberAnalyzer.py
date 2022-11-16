@@ -1,10 +1,12 @@
 # A series approximation (It's awesome, I know)
-# Not done relax lol
+# If you start from zero, it will sometimes break.
+# Division by zero is not possible, not my fault.
 
 import math
 
 def bar():
     print("+=+=+=+=+=+=+=+=+=+=+")
+
 
 def Start():
     global lower, upper
@@ -41,6 +43,7 @@ def Start():
     elif cmd == 6:
         PowerAlt()
 
+
 def Integer():
     global final
     global series
@@ -50,6 +53,7 @@ def Integer():
         nums.append(i)
     final = sum(nums)
     Print()
+
 
 def IntegerAlt():
     global final
@@ -61,6 +65,7 @@ def IntegerAlt():
         nums.append(x)
     final = sum(nums)
     Print()
+
 
 def Recip():
     global final
@@ -148,6 +153,7 @@ def RecipAlt():
         final = math.fsum(nums)
         Print()
 
+
 def Power():
   global series
   global final
@@ -162,6 +168,7 @@ def Power():
   final = math.fsum(nums)
   Print()
 
+
 def PowerAlt():
   global series
   global final
@@ -175,7 +182,7 @@ def PowerAlt():
     nums.append(x)
   final = math.fsum(nums)
   Print()
-  
+
 
 def Print():
     for i in range(15):
