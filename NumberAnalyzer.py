@@ -148,15 +148,49 @@ def RecipAlt():
         final = math.fsum(nums)
         Print()
 
+def Power():
+  global series
+  global final
+  print("What should k, our power, be (n ^ k)? \n"
+        "Input:")
+  k = int(input())
+  series = 'Power ({}) Series'.format(k)
+  nums = []
+  for i in range(lower, upper + 1):
+    x = i ** k
+    nums.append(x)
+  final = math.fsum(nums)
+  Print()
+
+def PowerAlt():
+  global series
+  global final
+  print("What should k, our power, be (n ^ k)? \n"
+        "Input:")
+  k = int(input())
+  series = 'Alternating Power ({}) Series'.format(k)
+  nums = []
+  for i in range(lower, upper + 1):
+    x = ((i ** k) * ((-1) ** (i - 1)))
+    nums.append(x)
+  final = math.fsum(nums)
+  Print()
+  
+
 def Print():
+    for i in range(15):
+      print('\n')
     print("    {} \n"
           "########### \n"
           " # \n"
           "  # \n"
-          "   #           of {}    =  {} \n"
+          "   #       of {}  \n"
           "  # \n"
           " # \n"
           "########### \n"
-          "  n = {}".format(upper, series, final, lower))
+          "  n = {}"
+          "\n\n"
+          "= {}".format(upper, series, lower, final))
 
+      
 Start()
