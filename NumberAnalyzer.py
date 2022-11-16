@@ -1,4 +1,5 @@
-# A (bounded) series approximation (It's awesome, I know)
+# A series approximation (It's awesome, I know)
+# Not done relax lol
 
 import math
 
@@ -65,11 +66,11 @@ def Recip():
     global final
     global series
     nums = []
-    print("Do you want to sum:"
-          "1: Natural Reciprocals?"
-          "2: Even Reciprocals?"
-          "3: Odd Reciprocals?"
-          "4: Square Reciprocals?"
+    print("Do you want to sum: \n"
+          "1: Natural Reciprocals? \n"
+          "2: Even Reciprocals? \n"
+          "3: Odd Reciprocals? \n"
+          "4: Square Reciprocals? \n"
           "Input:")
     cmd = int(input())
     if cmd == 1:
