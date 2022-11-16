@@ -1,5 +1,4 @@
-# A series approximation (It's awesome, I know)
-# Not done relax lol
+# A (bounded) series approximation (It's awesome, I know)
 
 import math
 
